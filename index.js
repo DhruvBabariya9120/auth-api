@@ -31,12 +31,7 @@ const swaggerOptions = {
             title: 'Authentication API',
             version: '1.0.0',
             description: 'Simple authentication API with signup and login routes'
-        },
-        servers: [
-            {
-                url: 'http://localhost:3000'
-            }
-        ]
+        }
     },
     apis: ['./index.js']
 };
